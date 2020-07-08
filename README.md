@@ -1,6 +1,5 @@
 # DADA: Differentiable Automatic Data Augmentation`
 
-[TOC]
 
 ## Introduction
 The official code for our ECCV 2020 paper `DADA: Differentiable Automatic Data Augmentation`, which is at least one order of magnitude faster than
@@ -16,41 +15,45 @@ We provide the checkpoints in [BaiduDrive](https://pan.baidu.com/s/17VVe_U9BwzBo
 ### CIFAR-10
 Search : **0.1 GPU Hours**, WResNet-40x2 on Reduced CIFAR-10
 
-| Dataset| Model | Baseline | Cutout | AA | PBA | Fast AA | DADA | Download |
-| ---------|------------------|-------|-------|------|--------|-------|---| |
-| CIFAR-10 | Wide-ResNet-40-2 | 5.3   | 4.1   | 3.7   | -     | 3.6   | 3.6 | |
-| CIFAR-10 | Wide-ResNet-28-10 | 3.9   | 3.1   | 2.6   | 2.6   | 2.7   | 2.7 | |
-| CIFAR-10 | Shake-Shake(26 2x32d) | 3.6   | 3.0     | 2.5   | 2.5   | 2.7   | 2.7 | |
-| CIFAR-10 | Shake-Shake(26 2x96d) | 2.9   | 2.6   | 2.0     | 2.0     | 2.0     | 2.0 | |
-| CIFAR-10 | Shake-Shake(26 2x112d) | 2.8   | 2.6   | 1.9   | 2.0     | 2.0     | 2.0 | |
-| CIFAR-10 | PyramidNet+ShakeDrop | 2.7   | 2.3   | 1.5   | 1.5   | 1.8   | 1.7 | |
+
+Dataset  | Model | Baseline | Cutout | AA | PBA | Fast AA | DADA 
+---------|------------------|-------|-------|------|--------|-------|---
+CIFAR-10 | Wide-ResNet-40-2 | 5.3   | 4.1   | 3.7   | -     | 3.6   | 3.6
+CIFAR-10 | Wide-ResNet-28-10 | 3.9   | 3.1   | 2.6   | 2.6   | 2.7   | 2.7
+CIFAR-10 | Shake-Shake(26 2x32d) | 3.6   | 3.0     | 2.5   | 2.5   | 2.7   | 2.7
+CIFAR-10 | Shake-Shake(26 2x96d) | 2.9   | 2.6   | 2.0     | 2.0     | 2.0     | 2.0
+CIFAR-10 | Shake-Shake(26 2x112d) | 2.8   | 2.6   | 1.9   | 2.0     | 2.0     | 2.0
+CIFAR-10 | PyramidNet+ShakeDrop | 2.7   | 2.3   | 1.5   | 1.5   | 1.8   | 1.7 
 
 ### CIFAR-100
 Search : **0.2 GPU Hours**, WResNet-40x2 on Reduced CIFAR-100
 
-| Dataset| Model | Baseline | Cutout | AA | PBA | Fast AA | DADA | Download | 
-| ---------|------------------|-------|-------|------|--------|-------|---| | 
-| CIFAR-100 | Wide-ResNet-40-2 | 26.0    | 25.2  | 20.7  | -     | 20.7  | 20.9 | | 
-| CIFAR-100 | Wide-ResNet-28-10 | 18.8  | 18.4  | 17.1  | 16.7  | 17.3  | 17.5 | |
-| CIFAR-100 | Shake-Shake(26 2x96d) | 17.1  | 16.0    | 14.3  | 15.3  | 14.9  | 15.3 | |
-| CIFAR-100 | PyramidNet+ShakeDrop | 14.0    | 12.2  | 10.7  | 10.9  | 11.9  | 11.2 | |
+
+Dataset| Model | Baseline | Cutout | AA | PBA | Fast AA | DADA 
+---------|------------------|-------|-------|------|--------|-------|---
+CIFAR-100 | Wide-ResNet-40-2 | 26.0    | 25.2  | 20.7  | -     | 20.7  | 20.9
+CIFAR-100 | Wide-ResNet-28-10 | 18.8  | 18.4  | 17.1  | 16.7  | 17.3  | 17.5 
+CIFAR-100 | Shake-Shake(26 2x96d) | 17.1  | 16.0    | 14.3  | 15.3  | 14.9  | 15.3 
+CIFAR-100 | PyramidNet+ShakeDrop | 14.0    | 12.2  | 10.7  | 10.9  | 11.9  | 11.2
 
 
 ### SVHN
 Search : **0.1 GPU Hours**, WResNet-28x10 on Reduced SVHN
 
-| Dataset| Model | Baseline | Cutout | AA | PBA | Fast AA | DADA | Download | 
-| ---------|------------------|-------|-------|------|--------|-------|---| |
-| SVHN | Wide-ResNet-28-10 | 1.5   | 1.3   | 1.1   | 1.2   | 1.1   | 1.2 | |
-| SVHN | Shake-Shake(26 2x96d) | 1.4   | 1.2   | 1.0  | 1.1  | -     | 1.1 | |
+
+Dataset| Model | Baseline | Cutout | AA | PBA | Fast AA | DADA 
+---------|------------------|-------|-------|------|--------|-------|---
+SVHN | Wide-ResNet-28-10 | 1.5   | 1.3   | 1.1   | 1.2   | 1.1   | 1.2 
+SVHN | Shake-Shake(26 2x96d) | 1.4   | 1.2   | 1.0  | 1.1  | -     | 1.1 
 
 
 ### ImageNet
 Search : **1.3 GPU Hours**, ResNet-50 on Reduced ImageNet
 
-| Dataset| Baseline | AA | Fast AA | OHL AA | DADA | Download | 
-| ---------|------------------|-------|-------|------|--------|-------|---| | 
-| ImageNet | 23.7 / 6.9 | ~22.4 / 6.2 | 22.4 / 6.3 | 21.1 / 5.7 | 22.5 / 6.5 | |
+
+Dataset| Baseline | AA | Fast AA | OHL AA | DADA 
+---------|------------------|-------|-------|------|--------|-------|---
+ImageNet | 23.7 / 6.9 | ~22.4 / 6.2 | 22.4 / 6.3 | 21.1 / 5.7 | 22.5 / 6.5 
 
 
 
