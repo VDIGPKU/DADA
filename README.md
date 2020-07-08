@@ -9,10 +9,11 @@ The implementation of our training part is based on [fast-autoaugment](https://g
 **The project is only free for academic research purposes, but needs authorization for commerce. For commerce permission, please contact wyt@pku.edu.cn.**
 
 ## Model
-We provide the checkpoints in [BaiduDrive](https://pan.baidu.com/s/17VVe_U9BwzBoE4pI5eA_vQ), with fetch code **sgap**.
+We provide the checkpoints in [BaiduDrive](https://pan.baidu.com/s/17VVe_U9BwzBoE4pI5eA_vQ), with fetching code **sgap**.
 
 ### CIFAR-10
 Search : **0.1 GPU Hours**, WResNet-40x2 on Reduced CIFAR-10
+
 | Dataset| Model | Baseline | Cutout | AA | PBA | Fast AA | DADA | Download |
 | ---------|------------------|-------|-------|------|--------|-------|---| |
 | CIFAR-10 | Wide-ResNet-40-2 | 5.3   | 4.1   | 3.7   | -     | 3.6   | 3.6 | |
@@ -24,6 +25,7 @@ Search : **0.1 GPU Hours**, WResNet-40x2 on Reduced CIFAR-10
 
 ### CIFAR-100
 Search : **0.2 GPU Hours**, WResNet-40x2 on Reduced CIFAR-100
+
 | Dataset| Model | Baseline | Cutout | AA | PBA | Fast AA | DADA | Download | 
 | ---------|------------------|-------|-------|------|--------|-------|---| | 
 | CIFAR-100 | Wide-ResNet-40-2 | 26.0    | 25.2  | 20.7  | -     | 20.7  | 20.9 | | 
@@ -34,6 +36,7 @@ Search : **0.2 GPU Hours**, WResNet-40x2 on Reduced CIFAR-100
 
 ### SVHN
 Search : **0.1 GPU Hours**, WResNet-40x2 on Reduced SVHN
+
 | Dataset| Model | Baseline | Cutout | AA | PBA | Fast AA | DADA | Download | 
 | ---------|------------------|-------|-------|------|--------|-------|---| |
 | SVHN | Wide-ResNet-28-10 | 1.5   | 1.3   | 1.1   | 1.2   | 1.1   | 1.2 | |
@@ -42,6 +45,7 @@ Search : **0.1 GPU Hours**, WResNet-40x2 on Reduced SVHN
 
 ### ImageNet
 Search : **1.3 GPU Hours**, WResNet-40x2 on Reduced ImageNet
+
 | Dataset| Baseline | AA | Fast AA | OHL AA | DADA | Download | 
 | ---------|------------------|-------|-------|------|--------|-------|---| | 
 | ImageNet | 23.7 / 6.9 | ~22.4 / 6.2 | 22.4 / 6.3 | 21.1 / 5.7 | 22.5 / 6.5 | |
@@ -314,8 +318,7 @@ sub-policy 24 | (Posterize, 0.15, 0.33) | (Color, 0.50, 0.59)
                Neil Martin Robertson and
                Yongxin Yang},
   title     = {{DADA:} Differentiable Automatic Data Augmentation},
-  journal   = {CoRR},
-  volume    = {abs/2003.03780},
+  booktitle = {The European Conference on Computer Vision (ECCV)},
   year      = {2020}
 }
 ```
