@@ -1,0 +1,18 @@
+model:
+  type: shakeshake26_2x96d
+dataset: svhn
+aug: d
+genotype: augment2_st_multi_relax_reduced_svhn_wresnet28_10_32_20_awd0p0_alr0p005_cutout_20_lr0p00125_wd0p001_temp_0p5
+cutout: 20
+batch: 1024
+epoch: 200
+lr: 0.02
+lr_schedule:
+  type: 'cosine'
+  warmup:
+    multiplier: 4
+    epoch: 5
+optimizer:
+  type: sgd
+  nesterov: True
+  decay: 0.00015

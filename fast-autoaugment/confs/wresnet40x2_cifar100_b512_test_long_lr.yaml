@@ -1,0 +1,18 @@
+model:
+  type: wresnet40_2
+dataset: cifar100
+aug: d
+genotype: k1_cifar10_test
+cutout: 16
+batch: 512
+epoch: 1800
+lr: 0.4
+lr_schedule:
+  type: 'cosine'
+  warmup:
+    multiplier: 4
+    epoch: 5
+optimizer:
+  type: sgd
+  nesterov: True
+  decay: 0.0005

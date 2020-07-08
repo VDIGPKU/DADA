@@ -1,0 +1,18 @@
+model:
+  type: pyramid
+  depth: 272
+  alpha: 200
+  bottleneck: True
+dataset: cifar100
+aug: d
+genotype: k1_cifar10_test
+cutout: 16
+batch: 64
+epoch: 1800
+lr: 0.025
+lr_schedule:
+  type: 'cosine'
+optimizer:
+  type: sgd
+  nesterov: True
+  decay: 0.0005

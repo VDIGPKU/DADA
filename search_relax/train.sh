@@ -1,0 +1,291 @@
+set -x
+DATASET=reduced_cifar10
+DATASET=reduced_cifar100
+DATASET=reduced_svhn
+MODEL=resnet50
+MODEL=wresnet40_2
+MODEL=wresnet28_10
+GPU=3
+EPOCH=100
+EPOCH=20
+BATCH=64
+BATCH=128
+LR=0.0025
+LR=0.0125
+LR=0.1
+LR=0.005
+WD=0.001
+AWD=0.0
+ALR=0.01
+
+# cifar10
+GPU=3
+DATASET=reduced_cifar10
+MODEL=wresnet40_2
+EPOCH=20
+BATCH=128
+LR=0.1
+WD=0.0002
+AWD=0.0
+ALR=0.005
+CUTOUT=16
+TEMPERATE=0.5
+
+# cifar100
+GPU=2
+DATASET=reduced_cifar100
+MODEL=wresnet40_2
+EPOCH=20
+BATCH=128
+LR=0.1
+WD=0.0002
+AWD=0.0
+ALR=0.005
+CUTOUT=16
+TEMPERATE=0.5
+
+# cifar100
+# GPU=0
+# DATASET=cifar100
+# MODEL=wresnet40_2
+# EPOCH=200
+# BATCH=512
+# LR=0.1
+# WD=0.0005
+# AWD=0.0
+# ALR=0.001
+# CUTOUT=16
+# TEMPERATE=0.1
+# 
+# 
+# cifar10
+# GPU=1
+# DATASET=cifar10
+# MODEL=wresnet40_2
+# EPOCH=200
+# BATCH=512
+# LR=0.4
+# WD=0.0002
+# AWD=0.0
+# ALR=0.001
+# CUTOUT=16
+# TEMPERATE=0.5
+
+# cifar10
+# GPU=3
+# DATASET=reduced_cifar10
+# MODEL=wresnet40_2
+# EPOCH=20
+# BATCH=32
+# BATCH=128
+# LR=0.1
+# WD=0.0002
+# AWD=0.0
+# ALR=0.005
+# CUTOUT=16
+
+# svhn
+# GPU=0
+# DATASET=reduced_svhn
+# MODEL=wresnet28_10
+# EPOCH=20
+# BATCH=32
+# LR=0.00125
+# WD=0.001
+# AWD=0.0
+# ALR=0.005
+# CUTOUT=20
+# TEMPERATE=0.5
+
+
+# GPU=0
+# DATASET=reduced_imagenet
+# MODEL=resnet50
+# EPOCH=20
+# BATCH=32
+# LR=0.00125
+# WD=0.0001
+# AWD=0.0
+# ALR=0.005
+# CUTOUT=0
+# TEMPERATE=0.5
+
+# # cifar100
+# GPU=2
+# DATASET=reduced_cifar100
+# MODEL=wresnet40_2
+# EPOCH=20
+# BATCH=32
+# LR=0.025
+# WD=0.0005
+# AWD=0.0
+# ALR=0.005
+# CUTOUT=16
+# TEMPERATE=0.5
+
+# cifar100
+GPU=9
+DATASET=reduced_cifar100
+MODEL=wresnet40_2
+EPOCH=120
+BATCH=32
+LR=0.025
+WD=0.0005
+AWD=0.0
+ALR=0.005
+CUTOUT=16
+TEMPERATE=0.5
+
+# 202002191549
+# cifar100
+GPU=0
+DATASET=reduced_cifar100
+MODEL=wresnet40_2
+EPOCH=20
+BATCH=128
+LR=0.1
+WD=0.0002
+AWD=0.0
+ALR=0.005
+CUTOUT=16
+TEMPERATE=0.5
+
+
+# 202002192307-150
+# cifar10
+GPU=0
+DATASET=cifar10
+MODEL=wresnet40_2
+EPOCH=20
+BATCH=128
+LR=0.1
+WD=0.0002
+AWD=0.0
+ALR=0.005
+CUTOUT=16
+TEMPERATE=0.5
+
+
+# cifar100
+GPU=0
+DATASET=cifar100
+MODEL=wresnet40_2
+EPOCH=20
+BATCH=128
+LR=0.1
+WD=0.0005
+AWD=0.0
+ALR=0.005
+CUTOUT=16
+TEMPERATE=0.5
+
+# 202002192307-150
+# cifar10
+GPU=9
+DATASET=cifar10
+MODEL=wresnet40_2
+EPOCH=120
+BATCH=128
+LR=0.1
+WD=0.0005
+AWD=0.0
+ALR=0.005
+CUTOUT=16
+TEMPERATE=0.5
+
+# 202002192307-150
+# cifar10
+GPU=1
+DATASET=cifar10
+MODEL=wresnet40_2
+EPOCH=50
+BATCH=128
+LR=0.1
+WD=0.0002
+AWD=0.0
+ALR=0.005
+CUTOUT=16
+TEMPERATE=0.5
+
+
+# 202002192307-150
+# cifar10
+GPU=9
+DATASET=cifar10
+MODEL=wresnet40_2
+EPOCH=20
+BATCH=128
+LR=0.1
+WD=0.0002
+AWD=0.0
+ALR=0.001
+CUTOUT=16
+TEMPERATE=0.5
+
+
+
+# 202002192307-150
+# cifar10
+GPU=0
+DATASET=cifar100
+MODEL=wresnet40_2
+EPOCH=20
+BATCH=128
+LR=0.1
+WD=0.0005
+AWD=0.0
+ALR=0.001
+CUTOUT=16
+TEMPERATE=0.5
+
+# # 202002192001-156
+# # cifar100
+# GPU=1
+# DATASET=reduced_cifar10
+# MODEL=wresnet40_2
+# EPOCH=20
+# BATCH=128
+# LR=0.1
+# WD=0.0002
+# AWD=0.0
+# ALR=0.005
+# CUTOUT=16
+# TEMPERATE=0.5
+
+# 202002192001-156
+# cifar100
+GPU=0
+DATASET=reduced_cifar10
+GPU=9
+DATASET=cifar10
+MODEL=wresnet40_2
+EPOCH=60
+BATCH=128
+LR=0.1
+WD=0.0002
+AWD=0.0
+ALR=0.005
+CUTOUT=16
+TEMPERATE=0.05
+TRY=0
+
+# 202002192001-156
+# cifar100
+GPU=9
+DATASET=reduced_cifar10
+MODEL=wresnet40_2
+EPOCH=50
+BATCH=128
+LR=0.1
+WD=0.0002
+AWD=0.0
+ALR=0.001
+CUTOUT=16
+TEMPERATE=0.5
+
+
+# SAVE=augment2_st_multi_${DATASET}_${MODEL}_${BATCH}_${EPOCH}_awd${AWD}_alr${ALR}_cutout_${CUTOUT}
+SAVE=augment2_st_multi_relax_fix_${DATASET}_${MODEL}_${BATCH}_${EPOCH}_awd${AWD}_alr${ALR}_cutout_${CUTOUT}_lr${LR}_wd${WD}_temp_${TEMPERATE}_try${TRY}
+SAVE=augment2_st_multi_relax_fix_${DATASET}_${MODEL}_${BATCH}_${EPOCH}_awd${AWD}_alr${ALR}_cutout_${CUTOUT}_lr${LR}_wd${WD}_temp_${TEMPERATE}_fixbug
+which python
+python train_search.py --unrolled --report_freq 1 --num_workers 0 --epoch ${EPOCH} --batch_size ${BATCH} --learning_rate ${LR} --dataset ${DATASET} --model_name ${MODEL} --save ${SAVE} --gpu ${GPU} --arch_weight_decay ${AWD} --arch_learning_rate ${ALR} --weight_decay ${WD} --cutout --cutout_length ${CUTOUT} --temperature ${TEMPERATE}

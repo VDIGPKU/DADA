@@ -1,0 +1,19 @@
+model:
+  type: resnet50
+dataset: imagenet
+aug: d
+genotype: augment2_st_multi_relax_reduced_imagenet_resnet50_32_20_awd0p0_alr0p005_cutout_0_lr0p00125_wd0p0001_temp_0p5_25
+cutout: 0
+batch: 1024
+epoch: 270
+lr: 0.2
+lr_schedule:
+  type: 'resnet'
+  warmup:
+    multiplier: 2
+    epoch: 3
+optimizer:
+  type: sgd
+  nesterov: True
+  decay: 0.0001
+  clip: 0
