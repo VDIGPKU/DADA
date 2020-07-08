@@ -1,5 +1,7 @@
 # DADA: Differentiable Automatic Data Augmentation`
 
+[TOC]
+
 ## Introduction
 The official code for our ECCV 2020 paper `DADA: Differentiable Automatic Data Augmentation`, which is at least one order of magnitude faster than
 the state-of-the-art data augmentation (DA) policy search algorithms while achieving very comparable accuracy.
@@ -35,7 +37,7 @@ Search : **0.2 GPU Hours**, WResNet-40x2 on Reduced CIFAR-100
 
 
 ### SVHN
-Search : **0.1 GPU Hours**, WResNet-40x2 on Reduced SVHN
+Search : **0.1 GPU Hours**, WResNet-28x10 on Reduced SVHN
 
 | Dataset| Model | Baseline | Cutout | AA | PBA | Fast AA | DADA | Download | 
 | ---------|------------------|-------|-------|------|--------|-------|---| |
@@ -44,7 +46,7 @@ Search : **0.1 GPU Hours**, WResNet-40x2 on Reduced SVHN
 
 
 ### ImageNet
-Search : **1.3 GPU Hours**, WResNet-40x2 on Reduced ImageNet
+Search : **1.3 GPU Hours**, ResNet-50 on Reduced ImageNet
 
 | Dataset| Baseline | AA | Fast AA | OHL AA | DADA | Download | 
 | ---------|------------------|-------|-------|------|--------|-------|---| | 
