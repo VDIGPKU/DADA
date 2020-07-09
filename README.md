@@ -1,5 +1,5 @@
 # DADA: Differentiable Automatic Data Augmentation`
-
+Contact us with liyonggang@pku.edu.cn, wyt@pku.edu.cn.
 
 ## Introduction
 The official code for our ECCV 2020 paper `DADA: Differentiable Automatic Data Augmentation`, which is at least one order of magnitude faster than
@@ -8,6 +8,23 @@ The implementation of our training part is based on [fast-autoaugment](https://g
 
 ## License
 **The project is only free for academic research purposes, but needs authorization for commerce. For commerce permission, please contact wyt@pku.edu.cn.**
+
+## Citation
+If you use our code/model, please consider to cite our ECCV 2020 paper **DADA: Differentiable Automatic Data Augmentation** [[arXiv](https://arxiv.org/pdf/2003.03780.pdf)] [[ECCV]()].
+
+```bibtex
+@article{DBLP:journals/corr/abs-2003-03780,
+  author    = {Yonggang Li and
+               Guosheng Hu and
+               Yongtao Wang and
+               Timothy M. Hospedales and
+               Neil Martin Robertson and
+               Yongxin Yang},
+  title     = {{DADA:} Differentiable Automatic Data Augmentation},
+  booktitle = {The European Conference on Computer Vision (ECCV)},
+  year      = {2020}
+}
+```
 
 ## Model
 We provide the checkpoints in [BaiduDrive](https://pan.baidu.com/s/17VVe_U9BwzBoE4pI5eA_vQ), with fetching code **sgap**.
@@ -311,19 +328,4 @@ sub-policy 22 | (TranslateX, 0.86, 0.29) | (Contrast, 0.41, 0.60)
 sub-policy 23 | (Invert, 0.28, 0.45) | (Posterize, 0.42, 0.34)
 sub-policy 24 | (Posterize, 0.15, 0.33) | (Color, 0.50, 0.59)
 
-## Reference
-**DADA: Differentiable Automatic Data Augmentation** [[arXiv](https://arxiv.org/pdf/2003.03780.pdf)] [[ECCV]()]
 
-```bibtex
-@article{DBLP:journals/corr/abs-2003-03780,
-  author    = {Yonggang Li and
-               Guosheng Hu and
-               Yongtao Wang and
-               Timothy M. Hospedales and
-               Neil Martin Robertson and
-               Yongxin Yang},
-  title     = {{DADA:} Differentiable Automatic Data Augmentation},
-  booktitle = {The European Conference on Computer Vision (ECCV)},
-  year      = {2020}
-}
-```
