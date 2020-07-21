@@ -1,4 +1,4 @@
-# DADA: Differentiable Automatic Data Augmentation`
+# `DADA: Differentiable Automatic Data Augmentation`
 Contact us with liyonggang@pku.edu.cn, wyt@pku.edu.cn.
 
 ## Introduction
@@ -27,7 +27,7 @@ If you use our code/model, please consider to cite our ECCV 2020 paper **DADA: D
 ```
 
 ## Model
-We provide the checkpoints in [BaiduDrive](https://pan.baidu.com/s/17VVe_U9BwzBoE4pI5eA_vQ), with fetching code **sgap**.
+We provide the checkpoints in [BaiduDrive](https://pan.baidu.com/s/17VVe_U9BwzBoE4pI5eA_vQ), with fetching code **sgap**, or [GoogleDrive](https://drive.google.com/drive/folders/1Y44_zJI36j5cheFF6Bhu0m1SuFoxllR-?usp=sharing).
 
 ### CIFAR-10
 Search : **0.1 GPU Hours**, WResNet-40x2 on Reduced CIFAR-10
