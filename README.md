@@ -13,7 +13,7 @@ The implementation of our training part is based on [fast-autoaugment](https://g
 If you use our code/model, please consider to cite our ECCV 2020 paper **DADA: Differentiable Automatic Data Augmentation** [[arXiv](https://arxiv.org/pdf/2003.03780.pdf)] [[ECCV]()].
 
 ```bibtex
-@article{DBLP:journals/corr/abs-2003-03780,
+@article{li2020dada,
   author    = {Yonggang Li and
                Guosheng Hu and
                Yongtao Wang and
@@ -94,7 +94,7 @@ source activate dada-env # or conda activate dada-env
 b. Install PyTorch and torchvision following the [official instructions](https://pytorch.org/), e.g.,
 
 ```shell
-conda install pytorch==1.2.0 torchvision==0.4.0 cudatoolkit=10.0
+conda install pytorch==1.2.0 torchvision==0.4.0 cudatoolkit==10.0
 ```
 
 c. Install other python package for DADA and fast-autoaugment, e.g.,
