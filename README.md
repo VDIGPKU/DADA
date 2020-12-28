@@ -10,7 +10,7 @@ The implementation of our training part is based on [fast-autoaugment](https://g
 **The project is only free for academic research purposes, but needs authorization for commerce. For commerce permission, please contact wyt@pku.edu.cn.**
 
 ## Citation
-If you use our code/model, please consider to cite our ECCV 2020 paper **DADA: Differentiable Automatic Data Augmentation** [[arXiv](https://arxiv.org/pdf/2003.03780.pdf)] [[ECCV]()].
+If you use our code/model, please consider to cite our ECCV 2020 paper **DADA: Differentiable Automatic Data Augmentation** [[arXiv](https://arxiv.org/pdf/2003.03780.pdf)] [[ECCV](https://link.springer.com/chapter/10.1007/978-3-030-58542-6_35)].
 
 ```bibtex
 @article{li2020dada,
