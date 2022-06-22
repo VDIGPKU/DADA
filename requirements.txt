@@ -3,7 +3,7 @@ gorilla==0.3.0
 scipy==1.4.1
 tqdm==4.42.1
 theconf==0.1.3
-numpy==1.18.1
+numpy==1.22.0
 pystopwatch2==0.1.1
 torch==1.2.0
 tensorboard==2.2.2
